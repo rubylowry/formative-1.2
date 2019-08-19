@@ -142,3 +142,29 @@ header .header-logo {
   text-align: center;
   text-shadow: 2px 2px #111;
 }
+
+/*FOOTER*/
+
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.footer-sm {
+  width: 50px;
+  float: left;
+}
+
+.footer-sm img {
+  padding: 10px;
+  width: 50px;
+  margin: 2px;
+}
+
+.icons {
+  width: 50px;
+
+  // float: left;
+}
