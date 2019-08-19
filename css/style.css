@@ -35,7 +35,13 @@ header nav ul li a {
 header .header-logo {
   display: none; }
 
-/*index*/
+@media only screen and (min-width: 1000px) {
+  header .header-brand {
+    display: none;
+}
+}
+
+/*INDEX*/
 .index-banner {
   width: 100%;
   height: calc(100vh - 100px);
