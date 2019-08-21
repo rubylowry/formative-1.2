@@ -15,7 +15,11 @@ header {
 
 .header-icon {
   width: 100%;
-  text-align: center;
+}
+
+.headerIcons {
+  display: block;
+  margin-left: 31%;
 }
 
 header .header-brand {
@@ -95,8 +99,7 @@ header .header-icon {
 
 }
 
-
-/*index*/
+/*INDEX*/
 
 .myicon {
 			margin-top: 5px;

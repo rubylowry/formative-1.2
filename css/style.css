@@ -7,8 +7,11 @@ header {
   width: 100%; }
 
 .header-icon {
-  width: 100%;
-  text-align: center; }
+  width: 100%; }
+
+.headerIcons {
+  display: block;
+  margin-left: 31%; }
 
 header .header-brand {
   display: none; }
@@ -68,7 +71,7 @@ header .header-icon {
 
   .myicon {
     display: none; } }
-/*index*/
+/*INDEX*/
 .myicon {
   margin-top: 5px;
   margin-bottom: 20px;
