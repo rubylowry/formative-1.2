@@ -19,7 +19,7 @@ header {
 
 .headerIcons {
   display: block;
-  margin-left: 31%;
+  margin-left: 30%;
 }
 
 header .header-brand {
@@ -96,6 +96,10 @@ header .header-icon {
   display: none;
 }
 
+.iconContainer {
+  display: none;
+}
+
 
 }
 
@@ -110,6 +114,7 @@ header .header-icon {
 			display: block;
 			top: 8px;
 			right: 10px;
+      color: black;
 }
 
 .myicon::after {
@@ -237,6 +242,4 @@ footer {
 
 .icons {
   width: 45px;
-
-  // float: left;
 }
