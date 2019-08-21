@@ -26,36 +26,59 @@ header .header-brand {
    display: none;
 }
 
+//
+// .nav {
+//   display: none;
+// }
 
-header nav {
+label {
+  display: block;
+}
+
+.menu {
+  text-align: center;
+  width: 100%;
   display: none;
 }
 
-header nav ul {
-    margin: 0 auto;
-}
-
-header nav ul li {
+.menu a {
   display: block;
-  float: left;
-  list-style: none;
-  padding: 0 16px;
+  border-bottom: 1x solid #EAEAEB;
+  margin: 0;
 }
 
-header nav ul li a {
-  font-family: sans-serif;
-  font-size: 16px;
-  color: #111;
+#toggle:checked + .menu {
+  display: block;
+  cursor: pointer;
 }
+
+// header nav ul {
+//     margin: 0 auto;
+// }
+//
+// header nav ul li {
+//   display: block;
+//   float: left;
+//   list-style: none;
+//   padding: 0 16px;
+// }
+//
+// header nav ul li a {
+//   font-family: sans-serif;
+//   font-size: 16px;
+//   color: #111;
+// }
 
 header .header-icon {
   display: block;
 }
 
+/*DESKTOP VERSION*/
+
 @media only screen and (min-width: 1000px) {
 
   header .header-brand {
-    font-family: sans-serif;
+    font-family: "helvetica neue", sans-serif;
     font-size: 24px;
     font-weight: 900;
     color: #111;
@@ -66,69 +89,74 @@ header .header-icon {
     padding: 20px 0px;
   }
 
-  header nav {
-    display: block;
+  .nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
   }
 
-  header nav ul {
-      display: block;
-      margin: 0 auto;
+  .menu {
+      margin: 0 30px 0 0;
   }
 
-  header nav ul li {
-    display: inline-block;
-    float: left;
-    list-style: none;
-    padding: 0 16px;
+  .menu a {
+       text-decoration: none;
+       color: gray;
+       margin: 0 10;
+       line-height: 70px;
+    }
+
+  span {
+    color: #54D17A;
   }
 
-  header nav ul li a {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #111;
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+  }
+
+  #toggle {
+    display: none;
   }
 
 header .header-icon {
     text-align: left;
   }
 
-.myicon {
-  display: none;
-}
-
-.iconContainer {
-  display: none;
-}
-
 
 }
 
 /*INDEX*/
 
-.myicon {
-			margin-top: 5px;
-			margin-bottom : 20px;
-			float: left;
-			font-size:30px;
-			color: blue;
-			display: block;
-			top: 8px;
-			right: 10px;
-      color: black;
-}
-
-.myicon::after {
-		clear: right;
-	}
-
-.active {
-		display: block;
-	}
-
-.iconContainer {
-    width: 20%;
-    float: left;
-  }
+// .myicon {
+// 			margin-top: 0 40px 0 0;
+//       font-size: 30px;
+//       line-height: 25px;
+//       display: block;
+// 			// margin-bottom : 20px;
+//       // float: left;
+// 			color: blue;
+// 			display: block;
+// 			// top: 8px;
+// 			// right: 10px;
+//       color: black;
+// }
+//
+// .myicon::after {
+// 		clear: right;
+// 	}
+//
+// .active {
+// 		display: block;
+// 	}
+//
+// .iconContainer {
+//     width: 20%;
+//     float: left;
+//   }
 
 .index-banner {
   width: 100%;
