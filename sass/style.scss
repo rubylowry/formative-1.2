@@ -1,3 +1,5 @@
+@import 'variables';
+
 * {
   text-decoration: none;
 }
@@ -80,20 +82,21 @@ header .header-icon {
   }
 
 .headerIcons {
-     margin-left: 20px;
-     margin-top: 20px;
+     margin: 20px;
+     width: 100px;
   }
 
 .header-brand {
-    font-family: "helvetica neue", sans-serif;
-    font-size: 24px;
+    font-family: $myFont;
+    font-size: 50px;
     font-weight: 900;
-    color: #111;
+    color: $myColor;
     text-transform: uppercase;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
-    padding: 20px 0px;
+    padding: 60px;
+    text-shadow: 2px 2px #111;
   }
 
   .nav {
@@ -103,7 +106,10 @@ header .header-icon {
     height: 25px;
     display: block;
     margin: 0;
-    padding: 10px;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
     font-size: 20px;
     overflow: hidden;
     background-color: #333;
@@ -121,6 +127,17 @@ header .header-icon {
        padding: 15px 5px;
        color: white;
     }
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.menu a.active {
+  background-color: black;
+  color: white;
+}
+
 
 label {
     margin: 0 40px 0 0;
@@ -142,7 +159,7 @@ label {
 .index-banner {
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url(../img/index-banner.jpg);
+  background-image: url(../img/coverpage.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
