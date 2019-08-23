@@ -88,7 +88,7 @@ header .header-icon {
 
 .header-brand {
     font-family: $myFont;
-    font-size: 50px;
+    font-size: $myheaderSize;
     font-weight: 900;
     color: $myColor;
     text-transform: uppercase;
@@ -151,6 +151,15 @@ label {
     display: none;
   }
 
+.footer-sm {
+    margin-left: 750px;
+  }
+
+.icons {
+    padding: 40px;
+    float: left;
+  }
+
 }
 
 /*INDEX*/
@@ -173,7 +182,7 @@ label {
 
 .index-banner h2 {
   font-family: sans-serif;
-  font-size: 60px;
+  font-size: $myheaderSize;
   line-height: 40px;
   color: #fff;
   text-align: center;
@@ -203,8 +212,10 @@ label {
   font-size: 28px;
   font-weight: 900;
   line-height: 40px;
-  color: #111;
+  color: $myColor;
+  text-shadow: 1px 1px #111;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .index-headers div p {
@@ -218,7 +229,7 @@ label {
 .second-index-banner {
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url(../img/index-banner.jpg);
+  background-image: url(../img/indexfoodimage.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
