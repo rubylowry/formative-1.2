@@ -187,11 +187,13 @@ header .header-icon {
   text-shadow: 2px 2px #111;
 }
 
-.second-index-banner h1 {
+.second-index-banner a {
+  display: block;
   font-family: sans-serif;
   font-size: 28px;
   font-weight: 100;
   font-style: italic;
+  text-decoration: none;
   line-height: 40px;
   color: #fff;
   text-align: center;
@@ -212,31 +214,22 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 30%;
+  padding: 20px;
+}
 
+@media only screen and (min-width: 900px) {
+
+.footer-sm {
+  padding: 40px;
+  width: 20vw;
+  left: 38%;
+}
 
 }
 
-/*FOOTER*/
 
-// footer {
-//   width: calc(100% - 80px);
-//   padding: 40px 40px;
-//   margin-top: 20px;
-//   background-color: #fff;
-// }
-//
-// .footer-sm {
-//   width: 250px;
-//   float: left;
-//   padding: 20px;
-//   text-align: center;
-// }
-//
-// .icons {
-//   width: 45px;
-// }
 
 /*DESKTOP VERSION*/
 
@@ -321,17 +314,5 @@ label {
 #toggle {
     display: none;
   }
-
-// .footer-sm {
-//     // margin-left: 600px;
-//     display: flex;
-//     flex-direction: row;
-//     width: 100vw;
-//   }
-//
-// .icons {
-//     padding: 40px;
-//     // float: left;
-//   }
 
 }
